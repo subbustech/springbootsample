@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto8    
+      java: openjdk8
     commands:
       - echo Nothing to do in the install phase...
   pre_build:
@@ -18,4 +18,9 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - 'target/cpproject.jar'
+    - 'target/ccdemo.war'
+    - 'appspec.yml'
+    - 'scripts/before_install.sh'
+    - 'scripts/after_install.sh'    
+    - 'scripts/start_server.sh'
+    - 'scripts/stop_server.sh'    
