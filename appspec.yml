@@ -2,7 +2,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/ccproject.jar
+  - source: target/cpproject.jar
     destination: /usr/share/tomcat8/webapps/
 hooks:
   BeforeInstall:
