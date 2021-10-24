@@ -1,3 +1,3 @@
 
 #!/bin/bash
-$BASE/startup.sh
+sudo $BASE/startup.sh

@@ -2,5 +2,5 @@
 #!/bin/bash
 isExistApp=`pgrep java`
 if [[ -n  $isExistApp ]]; then
-   $BASE/shutdown.sh
+   sudo $BASE/shutdown.sh
 fi
