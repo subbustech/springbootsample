@@ -2,5 +2,5 @@
 #!/bin/bash
 isExistApp=`pgrep java`
 if [[ -n  $isExistApp ]]; then
-   sudo $BASE/shutdown.sh
+   usr/share/tomcat8/bin/shutdown.sh
 fi
