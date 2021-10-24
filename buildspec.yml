@@ -18,7 +18,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - 'target/cpproject.jar'
+    - 'target/cpproject.war'
     - 'appspec.yml'
     - 'scripts/before_install.sh'
     - 'scripts/after_install.sh'    
