@@ -1,3 +1,3 @@
 
 #!/bin/bash
-usr/share/tomcat8/bin/startup.sh
+sh usr/share/tomcat8/bin/startup.sh
