@@ -1,3 +1,3 @@
 
 #!/bin/bash
-sudo usr/share/tomcat8/bin/startup.sh
+sudo apache-tomcat-8.5.72/bin/startup.sh

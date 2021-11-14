@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /usr/share/tomcat8/webapps/cpproject*
+rm -rf /apache-tomcat-8.5.72/webapps/cpproject*
