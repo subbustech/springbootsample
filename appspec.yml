@@ -1,9 +1,8 @@
-
 version: 0.0
 os: linux
 files:
   - source: target/cpproject.war
-    destination: apache-tomcat-8.5.72/webapps/
+    destination: apache-tomcat-8.5.73/webapps/
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
@@ -21,4 +20,3 @@ hooks:
     - location: scripts/stop_server.sh
       timeout: 300
       runas: root
-

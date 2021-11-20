@@ -1,2 +1,2 @@
 #!/bin/bash
-apache-tomcat-8.5.72/bin/startup.sh
+apache-tomcat-8.5.73/bin/startup.sh
