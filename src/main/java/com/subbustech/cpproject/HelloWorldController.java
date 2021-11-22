@@ -1,5 +1,8 @@
 package com.subbustech.cpproject;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
 		@GetMapping("/helloworld")
-		public String sayHelloWorld() {
-			return "Hello World - V2";
+		public String sayHelloWorld() throws UnknownHostException {
+			return "Hello World - V1  -  " + InetAddress.getLocalHost().getHostAddress();
 		}
 }
