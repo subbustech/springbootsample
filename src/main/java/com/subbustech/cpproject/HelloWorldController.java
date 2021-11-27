@@ -11,6 +11,6 @@ public class HelloWorldController {
 
 		@GetMapping("/helloworld")
 		public String sayHelloWorld() throws UnknownHostException {
-			return "Hello World - V1  -  " + InetAddress.getLocalHost().getHostAddress();
+			return "Hello World - V2  -  " + InetAddress.getLocalHost().getHostAddress();
 		}
 }
