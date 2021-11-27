@@ -5,7 +5,7 @@ files:
     destination: tomcat8/webapps/
 hooks:
   BeforeInstall:
-    - location: scripts/before_install4.sh
+    - location: scripts/before_install4.sh~
       timeout: 300
       runas: root
   AfterInstall:
